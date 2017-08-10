@@ -8,6 +8,8 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 export PATH="$HOME/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
