@@ -1,0 +1,2 @@
+{module, M} = code:load_abs("/home/archevel/.erl/user_default").
+io:format("Loaded ~p~n", [M]).
