@@ -1,3 +1,8 @@
 [user]
-	email = emil.hellman@gmail.com
-	name = Emil Hellman
+	email = emil@lindqvist.dev
+	name = Emil Lindqvist
+[alias]
+	st = status
+	cm = commit -m
+	ds = diff --staged
+	am = commit --amend
